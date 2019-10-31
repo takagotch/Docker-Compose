@@ -1,0 +1,9 @@
+# docker pull images
+FROM busybox
+# author
+MAINTAINER 0.1 takagotch@facebook.com
+
+# setting data
+VOLUME /var/lib/mysql
+
+
